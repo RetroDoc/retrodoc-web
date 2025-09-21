@@ -10,11 +10,14 @@ body {
 div.intro-text {
     /* Border & Box */
     padding: 5px;
+    margin: 0% 7.5%;
     border-top: 4px solid rgb(85, 85, 85);
     border-left: 4px solid rgb(85, 85, 85);
     border-bottom: 4px solid rgb(0, 0, 0);
     border-right: 4px solid rgb(0, 0, 0);
     background-color: rgb(127, 127, 127);
+
+    position: top;
 
     /* Text */
     text-align: center;
@@ -27,7 +30,7 @@ div.intro-text {
 div.hp-category ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 0 7.5%;
     overflow: hidden;
 
     left: 0;

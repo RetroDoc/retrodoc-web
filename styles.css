@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(192, 192, 192);
     font-family: "Segoe UI", "MS Sans Serif", Tahoma, Arial, Helvetica, sans-serif;
 }
 
@@ -25,7 +25,7 @@ div.footer {
     border-left: 2px solid rgb(85, 85, 85);
     border-bottom: 2px solid rgb(0, 0, 0);
     border-right: 2px solid rgb(0, 0, 0);
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(50, 50, 50);
 
     position: absolute;
     left: 0;
@@ -33,34 +33,34 @@ div.footer {
     bottom: 0;
 
     /* Text */
+    text-align: center;
     color: rgb(255, 255, 255);
     font-family: Tahoma, Arial, Helvetica, sans-serif;
-    text-align: center;
     text-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
 
 
 h1 {
-    font-size: 48px;
+    font-size: 384%;
     font-weight: bold;
     text-decoration: underline;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 256%;
     font-weight: bold;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 192%;
     font-weight: bold;
 }
 
 h4 {
-    font-size: 16px;
+    font-size: 128%;
     font-weight: bold;
 }
 
 p {
-    font-size: 13px;
+    font-size: 100%;
 }

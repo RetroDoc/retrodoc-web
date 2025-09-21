@@ -1,4 +1,29 @@
+body {
+    background-color: rgb(207, 207, 207);
+    font-family: "Segoe UI", sans-serif, Arial;
+}
+
 h1 {
-    font-family: "Segoe UI", sans-serif, Tahoma, Arial;
     font-size: 48px;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 11px;
 }

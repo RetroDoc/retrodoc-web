@@ -4,14 +4,20 @@ body {
 }
 
 div.intro-text {
+    /* Border & Box */
     padding: 5px;
     border-top: 4px solid rgb(85, 85, 85);
     border-left: 4px solid rgb(85, 85, 85);
     border-bottom: 4px solid rgb(0, 0, 0);
     border-right: 4px solid rgb(0, 0, 0);
     background-color: rgb(116, 116, 116);
-    color: rgb(255, 255, 255)
-    
+
+    /* Text */
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+    /* Other effects and stuff */
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
 
 h1 {

@@ -1,7 +1,11 @@
+/* Main */
+
 body {
     background-color: rgb(192, 192, 192);
     font-family: "Segoe UI", "MS Sans Serif", Tahoma, Arial, Helvetica, sans-serif;
 }
+
+/* Intro text */
 
 div.intro-text {
     /* Border & Box */
@@ -10,13 +14,53 @@ div.intro-text {
     border-left: 4px solid rgb(85, 85, 85);
     border-bottom: 4px solid rgb(0, 0, 0);
     border-right: 4px solid rgb(0, 0, 0);
-    background-color:rgb(127, 127, 127);
+    background-color: rgb(127, 127, 127);
 
     /* Text */
     text-align: center;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
+
+/* Homepage category */
+
+div.category ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+    border-top: 2px solid rgb(55, 106, 172);
+    border-left: 2px solid rgb(55, 106, 172);
+    border-bottom: 2px solid rgb(0, 35, 80);
+    border-right: 2px solid rgb(0, 35, 80);
+
+    background-color: rgb(0, 54, 126);
+}
+
+div.category ul li {
+    float: left;
+}
+
+div.category ul li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 5px 24px;
+    text-align: center;
+}
+
+div.category ul li a:hover {
+  background-color: rgb(0, 35, 80);
+}
+
+div.category {
+    font-size: 16px;
+}
+
+/* Footer text */
 
 div.footer {
     /* Border & Box */
@@ -28,9 +72,9 @@ div.footer {
     background-color: rgb(50, 50, 50);
 
     position: absolute;
-    left: 0%;
-    right: 0%;
-    bottom: 0%;
+    left: 0;
+    right: 0;
+    bottom: 0;
 
     /* Text */
     text-align: center;

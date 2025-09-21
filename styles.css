@@ -28,9 +28,9 @@ div.footer {
     background-color: rgb(50, 50, 50);
 
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
 
     /* Text */
     text-align: center;

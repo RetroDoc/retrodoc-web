@@ -10,7 +10,7 @@ div.intro-text {
     border-left: 4px solid rgb(85, 85, 85);
     border-bottom: 4px solid rgb(0, 0, 0);
     border-right: 4px solid rgb(0, 0, 0);
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(127, 127, 127);
 
     /* Text */
     text-align: center;
@@ -18,15 +18,10 @@ div.intro-text {
     text-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
 
-div.intro-text:nth-child(4n+1),
-div.intro-text:nth-child(4n) {
-    background-color:rgb(192, 192, 192);
-}
-
 div.footer {
     /* Border & Box */
     padding: 2px;
-    border-top: 2px solid rgb(85, 85, 85);
+    border-top: 2 solid rgb(85, 85, 85);
     border-left: 2px solid rgb(85, 85, 85);
     border-bottom: 2px solid rgb(0, 0, 0);
     border-right: 2px solid rgb(0, 0, 0);

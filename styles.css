@@ -1,12 +1,23 @@
 body {
     background-color: rgb(207, 207, 207);
-    font-family: "Segoe UI", sans-serif, Arial;
+    font-family: "Segoe UI", sans-serif, "MS Sans Serif", Arial;
+}
+
+div.intro-text {
+    padding: 5px;
+    border-top: 4px solid rgb(85, 85, 85);
+    border-left: 4px solid rgb(85, 85, 85);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    border-right: 4px solid rgb(0, 0, 0);
+    background-color: rgb(116, 116, 116);
+    color: rgb(255, 255, 255)
+    
 }
 
 h1 {
     font-size: 48px;
     font-weight: bold;
-    text-decoration-line: underline;
+    text-decoration: underline;
 }
 
 h2 {

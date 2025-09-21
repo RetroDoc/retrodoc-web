@@ -10,12 +10,17 @@ div.intro-text {
     border-left: 4px solid rgb(85, 85, 85);
     border-bottom: 4px solid rgb(0, 0, 0);
     border-right: 4px solid rgb(0, 0, 0);
-    background-color: rgb(116, 116, 116);
+    background-color:rgb(255, 255, 255);
 
     /* Text */
     text-align: center;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 0px rgb(0, 0, 0);
+}
+
+div.intro-text:nth-child(4n+1),
+div.intro-text:nth-child(4n) {
+    background-color:rgb(192, 192, 192);
 }
 
 div.footer {

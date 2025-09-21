@@ -47,20 +47,20 @@ h1 {
 }
 
 h2 {
-    font-size: 256%;
+    font-size: 64px;
     font-weight: bold;
 }
 
 h3 {
-    font-size: 192%;
+    font-size: 48px;
     font-weight: bold;
 }
 
 h4 {
-    font-size: 128%;
+    font-size: 24px;
     font-weight: bold;
 }
 
 p {
-    font-size: 100%;
+    font-size: 13px;
 }

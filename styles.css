@@ -29,9 +29,7 @@ div.category ul {
     padding: 0;
     overflow: hidden;
     
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
+    position: center;
 
     border-top: 2px solid rgb(55, 106, 172);
     border-left: 2px solid rgb(55, 106, 172);

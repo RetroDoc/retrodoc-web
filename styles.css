@@ -2,8 +2,35 @@
 
 body {
     margin: 0% 7.5%;
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(0, 64, 64);
+    /* rgb(192, 192, 192); */
     font-family: "Segoe UI", "MS Sans Serif", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 384%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 0;
+}
+
+p {
+    font-size: 13px;
 }
 
 /* Intro text */
@@ -74,19 +101,22 @@ body {
     font-weight: bold;
 }
 
+/* New sights tab */
+
 #new-sights-tab {
-    margin: 20px 0px;
+    color: rgb(255, 255, 255);
+    
     padding: 0px 10px;
+    margin-top: 20px;
+    margin-right: 70%;
 
-    position: center;
+    border-top: 3px solid rgb(128, 128, 128);
+    border-left: 3px solid rgb(128, 128, 128);
+    border-bottom: 3px solid rgb(32, 32, 32);
+    border-right: 3px solid rgb(32, 32, 32);
 
-
-    border-top: 2px solid rgb(85, 85, 85);
-    border-left: 2px solid rgb(85, 85, 85);
-    border-bottom: 2px solid rgb(0, 0, 0);
-    border-right: 2px solid rgb(0, 0, 0);
-
-    background-color: rgb(32, 178, 171);
+    background-color: rgb(0, 128, 128);
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
 
 /* Footer text */
@@ -94,7 +124,7 @@ body {
 #footer {
     /* Border & Box */
     padding: 2px;
-    border-top: 2 solid rgb(85, 85, 85);
+    border-top: 2px solid rgb(85, 85, 85);
     border-left: 2px solid rgb(85, 85, 85);
     border-bottom: 2px solid rgb(0, 0, 0);
     border-right: 2px solid rgb(0, 0, 0);
@@ -111,31 +141,4 @@ body {
     font-family: Tahoma, Arial, Helvetica, sans-serif;
     text-shadow: 1px 1px 0px rgb(0, 0, 0);
     line-height: 50%;
-}
-
-
-h1 {
-    font-size: 384%;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-h2 {
-    font-size: 64px;
-    font-weight: bold;
-}
-
-h3 {
-    font-size: 48px;
-    font-weight: bold;
-}
-
-h4 {
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 0;
-}
-
-p {
-    font-size: 13px;
 }

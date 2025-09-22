@@ -30,7 +30,11 @@ h4 {
 }
 
 p {
-    font-size: 13px;
+    font-size: 12px;
+}
+
+ul {
+    font-size: 12px;
 }
 
 /* Intro text */

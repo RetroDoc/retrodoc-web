@@ -3,9 +3,6 @@ document.write('\
     <div id="intro-text">\
       <h2>RetroDoc</h2>\
       <h5>Retrocomputing for beginners and enthusiasts alike</h5>\
-    </div>\
-    \
-    <div id="hp-category">\
       <ul>\
         <li><a href="../index.html">Home</a></li>\
         <li><a href="../test.html">Articles & Pages</a></li>\

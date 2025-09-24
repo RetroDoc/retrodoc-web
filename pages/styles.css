@@ -1,6 +1,12 @@
 body {
   font-family: "Segoe UI", "MS Sans Serif", Tahoma, Arial, Helvetica, sans-serif;
+  margin: 0 72px;
 }
+
+h1 {
+    text-decoration-line: underline;
+}
+
 
 #intro-text {
     /* Border & Box */

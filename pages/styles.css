@@ -1,0 +1,30 @@
+#intro-text {
+    /* Border & Box */
+    padding: 5px;
+    border-top: 4px solid rgb(85, 85, 85);
+    border-left: 4px solid rgb(85, 85, 85);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    border-right: 4px solid rgb(0, 0, 0);
+    
+    background: rgb(0, 128, 128);
+    background: radial-gradient(circle, rgb(64, 64, 64) 0%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 100%);
+    
+    position: top;
+    
+    /* Text */
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+}
+
+#intro-text h1 {
+    font-size: 384%;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 1;
+}
+
+#intro-text h5 {
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -29,6 +29,16 @@ h4 {
     font-weight: bold;
 }
 
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
 p {
     font-size: 12px;
 }
@@ -49,7 +59,7 @@ ul {
     border-bottom: 4px solid rgb(0, 0, 0);
     border-right: 4px solid rgb(0, 0, 0);
 
-    background: rgb(64, 64, 64);
+    background: rgb(0, 128, 128);
     background: radial-gradient(circle, rgb(64, 64, 64) 0%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 100%);
 
     position: top;
@@ -107,7 +117,19 @@ ul {
     font-weight: bold;
 }
 
-/* New sights tab */
+/* TABLE OF CONTENTS */
+
+#info-text {
+    text-align: center;
+
+    margin: 2.5% 0;
+    padding: 0 2.5%;
+
+    background-color: rgb(255, 255, 255);
+
+    border-color: rgb(128, 128, 128);
+    border-style: outset;
+}
 
 #new-sights-tab {
     color: rgb(255, 255, 255);

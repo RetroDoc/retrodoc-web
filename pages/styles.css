@@ -6,14 +6,12 @@ body {
     /* Border & Box */
     border-top: 4px solid rgb(85, 85, 85);
     border-left: 4px solid rgb(85, 85, 85);
+    border-right: 4px solid rgb(0, 0, 0);
     border-bottom: 4px solid rgb(0, 0, 0);
     
     background: rgb(0, 128, 128);
     background: radial-gradient(circle, rgb(64, 64, 64) 0%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 100%);
 
-    position: top;
-    padding: 0 5px;
-    
     /* Text */
     text-align: left;
     text-shadow: 1px 1px 0px rgb(0, 0, 0);

@@ -54,10 +54,8 @@ ul {
 #intro-text {
     /* Border & Box */
     padding: 5px;
-    border-top: 4px solid rgb(85, 85, 85);
-    border-left: 4px solid rgb(85, 85, 85);
-    border-bottom: 4px solid rgb(0, 0, 0);
-    border-right: 4px solid rgb(0, 0, 0);
+    border-style: outset;
+    border-color: rgb(0, 96, 96);
 
     background: rgb(0, 128, 128);
     background: radial-gradient(circle, rgb(64, 64, 64) 0%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 100%);

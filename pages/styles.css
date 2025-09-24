@@ -12,6 +12,7 @@ body {
     background: radial-gradient(circle, rgb(64, 64, 64) 0%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 100%);
 
     position: top;
+    padding: 0 5px;
     
     /* Text */
     text-align: left;
@@ -20,7 +21,7 @@ body {
 
 #intro-text h2 {
     color: rgb(135, 206, 250);
-    font-size: 256%;
+    font-size: 36px;
     font-weight: bold;
     text-decoration: underline;
     line-height: 0.5;
@@ -74,6 +75,6 @@ body {
 }
 
 #hp-category {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
 }

@@ -14,7 +14,7 @@ h1 {
     border-color: rgb(0, 96, 96);
     
     background: rgb(0, 128, 128);
-    background: radial-gradient(circle, rgb(64, 64, 64) 0%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 100%);
+    background: radial-gradient(circle, rgb(0, 128, 128) 0%, rgb(0, 32, 32) 100%);
 
     /* Text */
     text-align: left;

@@ -6,6 +6,10 @@ body {
     font-family: "Segoe UI", "MS Sans Serif", Tahoma, Arial, Helvetica, sans-serif;
     
     background-color: rgb(64, 64, 64);
+    background-image: url("bg-photo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #background-img {
@@ -21,9 +25,6 @@ body {
     background-size: cover;
     background-position: center;
     z-index: -1;
-
-    filter: blur(10px);
-    opacity: 0.5;
 }
 
 h1 {

@@ -23,14 +23,12 @@
     <!-- Homepage "table of contents" -->
 
     <!-- <script src="resources/pages-list.js"></script> -->
-    <div id="pagelist">
-
-      <script>
-        $.getJSON('pages/', data => {
-            document.write(data); //["doc1.jpg", "doc2.jpg", "doc3.jpg"] 
-        });
-      </script>
-
+    <div id="pages-list">
+      <h3>All articles</h3>
+      <p>You can find all of the published articles here.</p>
+      <ul>
+        <script src="resources/pages-list.js"></script>
+      </ul>
     </div>
 
     <!-- Homepage Footer -->

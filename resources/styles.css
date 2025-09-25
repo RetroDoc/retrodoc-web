@@ -4,27 +4,6 @@ body {
     margin: 0 72px;
     /* rgb(192, 192, 192); */
     font-family: "Segoe UI", "MS Sans Serif", Tahoma, Arial, Helvetica, sans-serif;
-    
-    background-color: rgb(64, 64, 64);
-    background-image: url("bg-photo.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-#background-img {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-
-    left: 0;
-    right: 0;
-
-    background-image: url("bg-photo.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
 }
 
 h1 {

@@ -24,9 +24,13 @@
 
     <!-- <script src="resources/pages-list.js"></script> -->
     <div id="pagelist">
-      <ul>
-        <script src='resources/pages-list.js'></script>
-      </ul>
+
+      <script>
+        $.getJSON('pages/', data => {
+            document.write(data); //["doc1.jpg", "doc2.jpg", "doc3.jpg"] 
+        });
+      </script>
+
     </div>
 
     <!-- Homepage Footer -->

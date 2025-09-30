@@ -8,7 +8,9 @@ const xhr = new XMLHttpRequest();
         const data = JSON.parse(this.response);
         console.log(data);
 
-        for (let i = 0; i < data.length; i++) {
+        let i = 0;
+
+        for (i = 0; i < data.length; i++) {
             const page_lister = document.createElement("li");
             page_lister.innerHTML = '<a href="' + data[i].name + '.html">' + data[i].name + '</a>';
             document.getElementById("pages-list").appendChild(page_lister);

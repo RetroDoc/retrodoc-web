@@ -1,8 +1,3 @@
-title = [
-    "<h3>All articles</h3>",
-    "<p>You can find all of the published articles here.</p>"
-]
-
 const xhr = new XMLHttpRequest();
     const url = "https://api.github.com/repositories/1039382278/contents/pages"
     // Replace -username- with your GitHub username, -repo- with the repository name, and then :path with a path to the file or folder you want to get the content of (leave blank to ge all files of the repository)

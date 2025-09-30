@@ -9,7 +9,7 @@ const xhr = new XMLHttpRequest();
         console.log(data);
 
         for (let i = 0; i < data.length; i++) {
-            document.write('<li><a href="' + data + '.html">' + data[i] + '</a></li>')
+            document.write('<li><a href="' + data[i].name + '.html">' + data[i].name + '</a></li>')
         }
     };
     

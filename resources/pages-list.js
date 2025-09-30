@@ -14,7 +14,9 @@ const xhr = new XMLHttpRequest();
         console.log(data);
 
         for (let i = 0; i < data.length; i++) {
-            document.getElementById("pages-list").innerHTML = '<li><a href="' + data[i].name + '.html">' + data[i].name + '</a></li>';
+            const page_lister = document.createElement("li");
+            page_lister.innerHTML = '<a href="' + data[i].name + '.html">' + data[i].name + '</a>';
+            document.getElementById("pages-list").appendChild(page_lister);
         }
     };
     

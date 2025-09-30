@@ -7,13 +7,13 @@ const xhr = new XMLHttpRequest();
     xhr.onload = function() {
         const data = JSON.parse(this.response);
         console.log(data);
+
+        for (let i = 0; i < data.length; i++) {
+            document.write('<li><a href="' + data + '.html">' + data[i] + '</a></li>')
+        }
     };
     
     xhr.send();
-
-    for (let i = 0; i < data.length; i++) {
-        document.write('<li><a href="' + data + '.html">' + data[i] + '</a></li>')
-    }
 
 // var webpageList = [
 //     "Quest to Build my First Windows 98 PC",

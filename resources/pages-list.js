@@ -12,13 +12,20 @@ for (var ctv = 0; ctv < data.length; ctv++) {
     const pageCategorizer = document.createElement("h4");
     pageCategorizer.innerHTML = data[ctv];
     document.getElementById("pages-list").appendChild(pageCategorizer);
-
-    for (var pgv = 0; pgv < data[ctv].length; pgv++) {
-        const pageLister = document.createElement("li");
-        pageLister.innerHTML = '<a href="' + data[ctv].pages[pgv].src + '>' + data[ctv].pages[pgv].title + '</a>';
-        document.getElementById("pages-list").appendChild(page_lister);
-    }
 }
+
+// for (var ctv = 0; ctv < data.length; ctv++) {
+
+//     const pageCategorizer = document.createElement("h4");
+//     pageCategorizer.innerHTML = data[ctv];
+//     document.getElementById("pages-list").appendChild(pageCategorizer);
+
+//     for (var pgv = 0; pgv < data[ctv].length; pgv++) {
+//         const pageLister = document.createElement("li");
+//         pageLister.innerHTML = '<a href="' + data[ctv].pages[pgv].src + '>' + data[ctv].pages[pgv].title + '</a>';
+//         document.getElementById("pages-list").appendChild(page_lister);
+//     }
+// }
 
 // for (var i = 0; i < data.length; i++) {
 //     const pageLister = document.createElement("li");

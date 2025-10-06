@@ -5,7 +5,7 @@ async function getPageData() {
     return JSON.parse(rawData);
 }
 
-data = getPageData();
+const data = getPageData();
 
 for (var ctv = 0; ctv < data.length; ctv++) {
 

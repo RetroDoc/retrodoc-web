@@ -1,4 +1,4 @@
-fetch("https://raw.githubusercontent.com/RetroDoc/retrodoc-web/refs/heads/main/resources/pages-list.json")
+const response = fetch("https://raw.githubusercontent.com/RetroDoc/retrodoc-web/refs/heads/main/resources/pages-list.json")
 
 const rawData = response.json();
 const data = JSON.parse(rawData);

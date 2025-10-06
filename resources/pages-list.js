@@ -2,7 +2,7 @@ async function getPageData() {
     const response = await fetch("https://raw.githubusercontent.com/RetroDoc/retrodoc-web/refs/heads/main/resources/pages-list.json")
 
     const rawData = await response.json();
-    return JSON.parse(rawData);
+    return JSON.parse(JSON.stringify(rawData));
 }
 
 const data = getPageData();

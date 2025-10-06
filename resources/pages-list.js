@@ -1,4 +1,5 @@
-const data = JSON.parse("pages-list.json");
+import data from "https://raw.githubusercontent.com/RetroDoc/retrodoc-web/refs/heads/main/resources/pages-list.json" assert { type: 'json' };
+// const data = JSON.parse('pages-list.json');
 
 for (var ctv = 0; ctv < data.length; ctv++) {
 

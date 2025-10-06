@@ -1,7 +1,11 @@
-const response = fetch("https://raw.githubusercontent.com/RetroDoc/retrodoc-web/refs/heads/main/resources/pages-list.json")
+fetch("https://raw.githubusercontent.com/RetroDoc/retrodoc-web/refs/heads/main/resources/pages-list.json")
+    .then((response) => response.json())
+    .then((data) => JSON.parse(data));
 
-const rawData = response.json();
-const data = JSON.parse(rawData);
+// const response = fetch("https://raw.githubusercontent.com/RetroDoc/retrodoc-web/refs/heads/main/resources/pages-list.json")
+
+// const rawData = response.json();
+// const data = JSON.parse(rawData);
 
 for (var ctv = 0; ctv < data.length; ctv++) {
 
